@@ -8,7 +8,19 @@
 
 # Seed the RottenPotatoes DB with some movies.
 more_movies = [
-  {:title => 'My Neighbor Totoro', :rating => 'G',
+  {:title => 'The Matrix', :rating => 'R',
+    :release_date => '31-Mar-1999'},
+  {:title => 'How to Train Your Dragon', :rating => 'PG-13',
+    :release_date => '21-Mar-2010'},
+  {:title => 'Interstellar', :rating => 'PG-13',
+    :release_date => '26-Oct-2014'},
+  {:title => 'Spirited Away', :rating => 'PG-13',
+    :release_date => '31-Aug-2002'},
+  {:title => 'The Wolf of Wall Street', :rating => 'R',
+    :release_date => '25-Dec-2013'},
+  {:title => 'Spider-Man: Into the Spider-Verse', :rating => 'R',
+    :release_date => '25-May-2012'},
+    {:title => 'My Neighbor Totoro', :rating => 'G',
     :release_date => '16-Apr-1988'},
   {:title => 'Green Book', :rating => 'PG-13',
     :release_date => '16-Nov-2018'},
